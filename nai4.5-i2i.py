@@ -56,8 +56,8 @@ SKIP_CFG_ABOVE_SIGMA = 58        # 在高sigma值时跳过CFG
 
 # 额外的图生图参数
 AUTO_SMEA = False                           # 自动SMEA
-NORMALIZE_REFERENCE_STRENGTH_MULTIPLE = True # 归一化参考强度倍数
-INPAINT_IMG2IMG_STRENGTH = 1               # 修复图生图强度
+NORMALIZE_REFERENCE_STRENGTH_MULTIPLE = True # 归一化参考强度倍数（？）
+INPAINT_IMG2IMG_STRENGTH = 1               # 局部重绘图生图强度
 COLOR_CORRECT = False                       # 颜色校正
 
 # ==================== API配置 ====================
