@@ -8,3 +8,7 @@ NovelAI diffusion V4.5 full模型RESTful api调用
 ### 3.将获得的API token复制下来
 ![image](https://github.com/user-attachments/assets/84e4670c-f682-48fe-a190-7124da80de71)
 ## 使用方法：
+### 基本文生图：
+```bash
+python nai4.5-t2i-base.py
+```
