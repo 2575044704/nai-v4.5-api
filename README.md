@@ -9,13 +9,7 @@ NovelAI diffusion V4.5 full模型RESTful api调用
 ### 3.将获得的API key复制下来
 ![image](https://github.com/user-attachments/assets/84e4670c-f682-48fe-a190-7124da80de71)
 
-## 环境准备
-确保已安装必要的 Python 包：
-```bash
-pip install requests
-```
-
-### 使用方法：
+# 使用方法：
 
 ### 基本文生图：
 1. 将**nai4.5-t2i-base.py**脚本下载在本地
@@ -96,9 +90,10 @@ SKIP_CFG_ABOVE_SIGMA = 58        # 在高sigma值时跳过CFG
 可用的采样器包括：
 - `"k_euler"` - Euler
 - `"k_euler_a"` - Euler_ancestor
-- `"k_dpmpp_2m"` - DPM++ 2M
-- `"k_dpmpp_sde"` - DPM++ SDE
 - `"k_dpmpp_2s_a"` - DPM++ 2S ancestor
+- `"k_dpmpp_2m"` - DPM++ 2M
+- `"k_dpmpp_2m_sde"` - DPM++ 2M SDE
+- `"k_dpmpp_sde"` - DPM++ SDE
 
 
 ### 分辨率预设
