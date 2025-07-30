@@ -33,5 +33,5 @@ python nai4.5-t2i-base.py
 
 然后直接使用python执行脚本：
 ```bash
-pythonnai4.5-i2i.py
+python nai4.5-i2i.py
 ```
